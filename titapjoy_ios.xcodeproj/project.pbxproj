@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* TiTapjoyModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* TiTapjoyModule.h */; };
+		24DD6CFA1134B3F500162E58 /* TiTapjoyModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* TiTapjoyModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* TiTapjoyModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* TiTapjoyModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* TiTapjoyModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TiTapjoyModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* TiTapjoy_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TiTapjoy_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		DFE110C317F385A500994AF2 /* Tapjoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110C217F385A400994AF2 /* Tapjoy.framework */; };
+		DFE110D917F3863E00994AF2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110C417F3863E00994AF2 /* AdSupport.framework */; };
+		DFE110DA17F3863F00994AF2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110C517F3863E00994AF2 /* CFNetwork.framework */; };
+		DFE110DB17F3863F00994AF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110C617F3863E00994AF2 /* CoreGraphics.framework */; };
+		DFE110DC17F3863F00994AF2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110C717F3863E00994AF2 /* CoreLocation.framework */; };
+		DFE110DD17F3863F00994AF2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110C817F3863E00994AF2 /* CoreMotion.framework */; };
+		DFE110DE17F3863F00994AF2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110C917F3863E00994AF2 /* CoreTelephony.framework */; };
+		DFE110DF17F3863F00994AF2 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110CA17F3863E00994AF2 /* EventKit.framework */; };
+		DFE110E017F3863F00994AF2 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110CB17F3863E00994AF2 /* EventKitUI.framework */; };
+		DFE110E117F3863F00994AF2 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110CC17F3863E00994AF2 /* libsqlite3.0.dylib */; };
+		DFE110E217F3863F00994AF2 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110CD17F3863E00994AF2 /* libxml2.dylib */; };
+		DFE110E317F3863F00994AF2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110CE17F3863E00994AF2 /* libz.dylib */; };
+		DFE110E417F3863F00994AF2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110CF17F3863E00994AF2 /* MapKit.framework */; };
+		DFE110E517F3863F00994AF2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110D017F3863E00994AF2 /* MediaPlayer.framework */; };
+		DFE110E617F3863F00994AF2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110D117F3863E00994AF2 /* MessageUI.framework */; };
+		DFE110E717F3863F00994AF2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110D217F3863E00994AF2 /* MobileCoreServices.framework */; };
+		DFE110E817F3863F00994AF2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110D317F3863E00994AF2 /* QuartzCore.framework */; };
+		DFE110E917F3863F00994AF2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110D417F3863E00994AF2 /* Social.framework */; };
+		DFE110EA17F3863F00994AF2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110D517F3863E00994AF2 /* StoreKit.framework */; };
+		DFE110EB17F3863F00994AF2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110D617F3863E00994AF2 /* SystemConfiguration.framework */; };
+		DFE110EC17F3863F00994AF2 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110D717F3863E00994AF2 /* Twitter.framework */; };
+		DFE110ED17F3863F00994AF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110D817F3863E00994AF2 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = titapjoy_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* TiTapjoyModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiTapjoyModule.h; path = Classes/TiTapjoyModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* TiTapjoyModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiTapjoyModule.m; path = Classes/TiTapjoyModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* TiTapjoyModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiTapjoyModuleAssets.h; path = Classes/TiTapjoyModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* TiTapjoyModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiTapjoyModuleAssets.m; path = Classes/TiTapjoyModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* TiTapjoy_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiTapjoy_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libTiTapjoy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTiTapjoy.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE110C117F385A400994AF2 /* TapjoyResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TapjoyResources.bundle; sourceTree = "<group>"; };
+		DFE110C217F385A400994AF2 /* Tapjoy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tapjoy.framework; sourceTree = "<group>"; };
+		DFE110C417F3863E00994AF2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		DFE110C517F3863E00994AF2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DFE110C617F3863E00994AF2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DFE110C717F3863E00994AF2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DFE110C817F3863E00994AF2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		DFE110C917F3863E00994AF2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		DFE110CA17F3863E00994AF2 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		DFE110CB17F3863E00994AF2 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		DFE110CC17F3863E00994AF2 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		DFE110CD17F3863E00994AF2 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		DFE110CE17F3863E00994AF2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DFE110CF17F3863E00994AF2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DFE110D017F3863E00994AF2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DFE110D117F3863E00994AF2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DFE110D217F3863E00994AF2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DFE110D317F3863E00994AF2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DFE110D417F3863E00994AF2 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		DFE110D517F3863E00994AF2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DFE110D617F3863E00994AF2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DFE110D717F3863E00994AF2 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		DFE110D817F3863E00994AF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE110E017F3863F00994AF2 /* EventKitUI.framework in Frameworks */,
+				DFE110D917F3863E00994AF2 /* AdSupport.framework in Frameworks */,
+				DFE110DA17F3863F00994AF2 /* CFNetwork.framework in Frameworks */,
+				DFE110DB17F3863F00994AF2 /* CoreGraphics.framework in Frameworks */,
+				DFE110DC17F3863F00994AF2 /* CoreLocation.framework in Frameworks */,
+				DFE110DD17F3863F00994AF2 /* CoreMotion.framework in Frameworks */,
+				DFE110DE17F3863F00994AF2 /* CoreTelephony.framework in Frameworks */,
+				DFE110DF17F3863F00994AF2 /* EventKit.framework in Frameworks */,
+				DFE110E117F3863F00994AF2 /* libsqlite3.0.dylib in Frameworks */,
+				DFE110E217F3863F00994AF2 /* libxml2.dylib in Frameworks */,
+				DFE110E317F3863F00994AF2 /* libz.dylib in Frameworks */,
+				DFE110E417F3863F00994AF2 /* MapKit.framework in Frameworks */,
+				DFE110E517F3863F00994AF2 /* MediaPlayer.framework in Frameworks */,
+				DFE110E617F3863F00994AF2 /* MessageUI.framework in Frameworks */,
+				DFE110E717F3863F00994AF2 /* MobileCoreServices.framework in Frameworks */,
+				DFE110E817F3863F00994AF2 /* QuartzCore.framework in Frameworks */,
+				DFE110E917F3863F00994AF2 /* Social.framework in Frameworks */,
+				DFE110EA17F3863F00994AF2 /* StoreKit.framework in Frameworks */,
+				DFE110EB17F3863F00994AF2 /* SystemConfiguration.framework in Frameworks */,
+				DFE110EC17F3863F00994AF2 /* Twitter.framework in Frameworks */,
+				DFE110ED17F3863F00994AF2 /* UIKit.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				DFE110C317F385A500994AF2 /* Tapjoy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libTiTapjoy.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* titapjoy_ios */ = {
+			isa = PBXGroup;
+			children = (
+				DFE110BE17F385A400994AF2 /* Libraries */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = titapjoy_ios;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFE110BF17F385A400994AF2 /* Tapjoy.embeddedframework */,
+				DFE110C417F3863E00994AF2 /* AdSupport.framework */,
+				DFE110C517F3863E00994AF2 /* CFNetwork.framework */,
+				DFE110C617F3863E00994AF2 /* CoreGraphics.framework */,
+				DFE110C717F3863E00994AF2 /* CoreLocation.framework */,
+				DFE110C817F3863E00994AF2 /* CoreMotion.framework */,
+				DFE110C917F3863E00994AF2 /* CoreTelephony.framework */,
+				DFE110CA17F3863E00994AF2 /* EventKit.framework */,
+				DFE110CB17F3863E00994AF2 /* EventKitUI.framework */,
+				DFE110CC17F3863E00994AF2 /* libsqlite3.0.dylib */,
+				DFE110CD17F3863E00994AF2 /* libxml2.dylib */,
+				DFE110CE17F3863E00994AF2 /* libz.dylib */,
+				DFE110CF17F3863E00994AF2 /* MapKit.framework */,
+				DFE110D017F3863E00994AF2 /* MediaPlayer.framework */,
+				DFE110D117F3863E00994AF2 /* MessageUI.framework */,
+				DFE110D217F3863E00994AF2 /* MobileCoreServices.framework */,
+				DFE110D317F3863E00994AF2 /* QuartzCore.framework */,
+				DFE110D417F3863E00994AF2 /* Social.framework */,
+				DFE110D517F3863E00994AF2 /* StoreKit.framework */,
+				DFE110D617F3863E00994AF2 /* SystemConfiguration.framework */,
+				DFE110D717F3863E00994AF2 /* Twitter.framework */,
+				DFE110D817F3863E00994AF2 /* UIKit.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24DE9E0F11C5FE74003F90F6 /* TiTapjoyModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* TiTapjoyModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* TiTapjoyModule.h */,
+				24DD6CF81134B3F500162E58 /* TiTapjoyModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* TiTapjoy_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		DFE110BE17F385A400994AF2 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			path = ../../../Downloads/TapjoySDK_iOS_v9.1.1/Libraries;
+			sourceTree = "<group>";
+		};
+		DFE110BF17F385A400994AF2 /* Tapjoy.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				DFE110C217F385A400994AF2 /* Tapjoy.framework */,
+				DFE110C017F385A400994AF2 /* Resources */,
+			);
+			name = Tapjoy.embeddedframework;
+			path = ../../../Downloads/TapjoySDK_iOS_v9.1.1/Libraries/Tapjoy.embeddedframework;
+			sourceTree = "<group>";
+		};
+		DFE110C017F385A400994AF2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFE110C117F385A400994AF2 /* TapjoyResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* TiTapjoy_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* TiTapjoyModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* TiTapjoyModuleAssets.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* titapjoy_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "titapjoy_ios" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = titapjoy_ios;
+			productName = titapjoy_ios;
+			productReference = D2AAC07E0554694100DB518D /* libTiTapjoy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "titapjoy_ios" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* titapjoy_ios */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* titapjoy_ios */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* TiTapjoyModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* TiTapjoyModuleAssets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* titapjoy_ios */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiTapjoy.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/jesse.newcomer/Downloads/TapjoySDK_iOS_v9.1.1/Libraries/Tapjoy.embeddedframework,
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiTapjoy_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiTapjoy;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/TiTapjoy.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/jesse.newcomer/Downloads/TapjoySDK_iOS_v9.1.1/Libraries/Tapjoy.embeddedframework,
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiTapjoy_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiTapjoy;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiTapjoy.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiTapjoy_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiTapjoy;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/TiTapjoy.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiTapjoy_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiTapjoy;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "titapjoy_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "titapjoy_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1
+apiversion: 2
+description: My module
+author: jesse newcomer
+license: Specify your license
+copyright: Copyright (c) 2013 by Your Company
+
+
+# these should not be edited
+name: titapjoy_ios
+moduleid: ti.tapjoy
+guid: ed8c2493-122b-499d-a2bb-507cd183bf23
+platform: iphone
+minsdk: 3.1.3.GA
