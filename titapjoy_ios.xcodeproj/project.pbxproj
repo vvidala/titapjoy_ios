@@ -28,7 +28,7 @@
 		24DE9E1211C5FE74003F90F6 /* TiTapjoyModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TiTapjoyModuleAssets.m */; };
 		AA747D9F0F9514B9006C5449 /* TiTapjoy_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TiTapjoy_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		DFE110C317F385A500994AF2 /* Tapjoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110C217F385A400994AF2 /* Tapjoy.framework */; };
+		DFE110C317F385A500994AF2 /* Tapjoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110C217F385A400994AF2 /* Tapjoy.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		DFE110D917F3863E00994AF2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110C417F3863E00994AF2 /* AdSupport.framework */; };
 		DFE110DA17F3863F00994AF2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110C517F3863E00994AF2 /* CFNetwork.framework */; };
 		DFE110DB17F3863F00994AF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE110C617F3863E00994AF2 /* CoreGraphics.framework */; };
@@ -211,8 +211,8 @@
 		DFE110BF17F385A400994AF2 /* Tapjoy.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				DFE110C217F385A400994AF2 /* Tapjoy.framework */,
 				DFE110C017F385A400994AF2 /* Resources */,
+				DFE110C217F385A400994AF2 /* Tapjoy.framework */,
 			);
 			name = Tapjoy.embeddedframework;
 			path = ../../../Downloads/TapjoySDK_iOS_v9.1.1/Libraries/Tapjoy.embeddedframework;
