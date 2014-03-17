@@ -102,14 +102,25 @@
 {
 	// example property setter
 }
+
 -(id)requestTapjoyConnect:(id)args
 {
     NSString *xappID =[TiUtils stringValue:[self valueForUndefinedKey:@"appID"]];
     NSString *xsecretKey =[TiUtils stringValue:[self valueForUndefinedKey:@"secretKey"]];
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [Tapjoy requestTapjoyConnect:xappID secretKey:xsecretKey options:@{    TJC_OPTION_ENABLE_LOGGING : @(YES) }];
-    });
-    return [NSString stringWithFormat:@"%@/%@", xappID, xsecretKey];
+    NSLog(@"[INFO] TapJoy: Trying to connect");
+    @try {
+        NSLog(@"[DEBUG] TapJoy: Inside Try 2");
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [Tapjoy requestTapjoyConnect:xappID secretKey:xsecretKey options:@{    TJC_OPTION_ENABLE_LOGGING : @(YES) }];
+        });
+        NSLog(@"[DEBUG] TapJoy: Called Tapjoy connect");
+    }
+    @catch (NSException *e) {
+        NSLog(@"[ERROR] TapJoy: Error trying to connect: %@", e);
+    }
+    @finally {
+        return [NSString stringWithFormat:@"%@/%@", xappID, xsecretKey];
+    }
 }
 @end
 

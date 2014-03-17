@@ -25,7 +25,7 @@
 //
 // IMPORTANT NOTE: always use $(inherited) in your overrides
 // 
-FRAMEWORK_SEARCH_PATHS=$(SRCROOT) /Users/jesse.newcomer/Documents/TapjoySDK_iOS_v9.1.1/Libraries/Tapjoy.embeddedframework /Users/jesse.newcomer/Documents/TapjoySDK_iOS_v9.1.1/Libraries/
+FRAMEWORK_SEARCH_PATHS=$(SRCROOT) /Users/vamsi.vidala/Documents/TapjoySDK_iOS_v9.1.1/Libraries/Tapjoy.embeddedframework /Users/vamsi.vidala/Documents/TapjoySDK_iOS_v9.1.1/Libraries/
 
 OTHER_LDFLAGS=$(inherited) -framework AdSupport -framework CFNetwork -framework CoreGraphics -framework CoreLocation -framework CoreMotion -framework CoreTelephony -framework EventKitUI -framework EventKit -framework Foundation /usr/lib/libsqlite3.0.dylib /usr/lib/libxml2.dylib /usr/lib/libz.dylib -framework MapKit -framework MediaPlayer -framework MessageUI -framework MobileCoreServices -framework QuartzCore -framework Social -framework StoreKit -framework SystemConfiguration -framework Twitter -framework UIKit -framework Tapjoy
 
